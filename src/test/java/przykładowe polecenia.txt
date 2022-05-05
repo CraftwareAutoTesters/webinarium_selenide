@@ -1,0 +1,27 @@
+Dokumentacja:
+https://selenide.gitbooks.io/user-guide/content/en/
+https://selenide.org/documentation.html
+https://www.methodsandtools.com/tools/selenide.php
+
+
+
+Otwieranie wybranej stronę:
+    open("https://google.com");
+
+Kliknięcie elementu:
+    $(By.id("L2AGLb")).click();
+    (szukamy elementu po ID a potem w nego klikamy)
+
+Uzupełnienie formularza:
+    $(By.name("q")).setValue("Oferty Pracy")
+    (szukamy elementu po name a potem ustawiamy wybraną wartość)
+
+Sprawdzenie czy pole ma wybraną wartość (asercja):
+    $(By.xpath("//div[@id='test-result']/h4")).shouldBe(Condition.text("Test Passed"));
+    (szukamy elementu po xPath, i sprawdzamy czy jego tekst zgadza się z naszym warunkiem)
+
+
+Sprawdzenie czy element jest widoczny na stronie:
+    $(By.id("text")).shouldBe(Condition.visible);
+    (szukamy elementu po ID i sprawdczamy czy jest widoczny)
+
