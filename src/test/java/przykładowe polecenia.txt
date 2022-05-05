@@ -5,7 +5,7 @@ https://www.methodsandtools.com/tools/selenide.php
 
 
 
-Otwieranie wybranej stronę:
+Otwieranie wybranej strony:
     open("https://google.com");
 
 Kliknięcie elementu:
