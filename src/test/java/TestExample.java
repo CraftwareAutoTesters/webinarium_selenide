@@ -14,7 +14,7 @@ public class TestExample {
         $(By.id("cookie_action_close_header")).click(); //zamykamy cookies
         $(By.xpath("//span[text()='Staffing']")).hover(); //najeżdżamy kursorem na "Staffing"
         $(By.xpath("//span[text()='Tester automatyzujący']")).click(); //klikamy na "tester autmatyzujący"
-        $(By.xpath("//div[@class='pageHeader__main']//h1")).shouldBe(Condition.text("Tester automatyzujący")); //sprawdzamy czy tytuł strony na zgadza (tekst)
+        $(By.xpath("//div[@class='pageHeader__main']//h1")).shouldBe(Condition.text("Tester automatyzujący")); //sprawdzamy czy tytuł na stronie zgadza (tekst)
 
 
 
