@@ -27,7 +27,7 @@ public class LiveTestExample {
         $(By.xpath("(//input[@class='button'])[2]")).click();
         // Assertion
         $(By.xpath("//p[@id='alert']")).shouldBe(Condition.text("This is just a dummy form, you just clicked SUBMIT BUTTON"));
-        // Implicit wait
+        // Explicit wait
         sleep(5000);
     }
 }
