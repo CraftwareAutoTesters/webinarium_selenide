@@ -6,7 +6,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TestExample {
 
-
     public static void main(String[] args) {
         Configuration.browserSize = "1920x1080";
         open("https://craftware.pl/"); //Otwieramy stronę Craftware
