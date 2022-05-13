@@ -17,7 +17,7 @@ Uzupełnienie formularza:
     (szukamy elementu po name a potem ustawiamy wybraną wartość)
 
 Sprawdzenie czy pole ma wybraną wartość (asercja):
-    $(By.xpath("//div[@id='test-result']/h4")).shouldBe(Condition.text("Test Passed"));
+    $(By.xpath("//div[@id='test-result']/h4")).shouldHave(Condition.text("Test Passed"));
     (szukamy elementu po xPath, i sprawdzamy czy jego tekst zgadza się z naszym warunkiem)
 
 
