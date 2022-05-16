@@ -13,7 +13,7 @@
 ## Test Example Path:
 src/test/java/TestExample.java
 
-##Test Template Path:
+## Test Template Path:
 src/test/java/BlankTemplate.java
 
 ## Example Methods:
